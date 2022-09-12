@@ -162,7 +162,7 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding: 20%;
     border-top: 1px solid #ddd;
 }
 
@@ -182,7 +182,7 @@ svg {
 }
 
 .card-button {
-    border: 1px solid #252525;
+    border: 1px solid #000000;
     display: flex;
     padding: 0.1em;
     cursor: pointer;
@@ -191,12 +191,17 @@ svg {
 }
 
 .card-button:hover {
-    border: 1px solid #303030;
-    background-color: #303030;
+    border: 1px solid #000000;
+    background-color: #538aff;
 }
 
 .container-promociones {
     padding-bottom: 2%;
     padding-top: 2%;
     background-color: #14213D;
+}
+
+.container_cátalogo {
+    background-color:#5e6681;
+   padding-top: 3.7%;
 }
