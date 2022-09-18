@@ -213,6 +213,16 @@ svg {
 
 /* ICONOS + ANIMACIONES DEL FOOTER */
 
+.copy {
+    font-size: 20px;
+    color: #ffff;
+    display: flexbox;
+    padding-top: 15px;
+    padding-left: 1px;
+    
+
+}
+
 .icons {
     display: flex;
     column-gap: 25px;
@@ -281,4 +291,18 @@ svg {
     40% {
         transform: rotate(-15deg);
     }
+}
+
+/* Media querys mobile hasta 1200px */
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    .copy{font-size: 20px; 
+        padding-top: 20px;
+        }
+    
+    .container_footer {
+        height: 200px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+
 }
