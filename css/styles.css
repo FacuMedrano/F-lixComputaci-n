@@ -11,9 +11,11 @@
     src: url(../Fonts/GlacialIndifference.otf);
 }
 
-#carouselExampleControls {
-    padding: 3%;
+.Logo { padding: 5px ;
+    height: 100px;
 }
+
+
 
 .titulo-main {
     text-align: center;
